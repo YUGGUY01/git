@@ -5,6 +5,8 @@ import Home from './page/home.jsx'
 import Pet from './page/pet.jsx'
 import Accommodation from './page/accommodation.jsx'
 import Status from './page/status.jsx'
+import Profile from './page/profile.jsx'
+
 import './index.css'
 import { createBrowserRouter, RouterProvider} from 'react-router-dom'
 
@@ -28,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: "status",
     element: <Status />
+  },
+  {
+    path: "profile",
+    element: <Profile />
   }
 
 ]) 
